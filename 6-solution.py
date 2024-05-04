@@ -1,0 +1,6 @@
+str = input()
+count = len(str)
+noSymbol = str.lower().replace("!", "").replace("%", "").replace("#", "").replace("@", "")
+countNoSymbol = len(noSymbol)
+print(count - countNoSymbol)
+print(noSymbol)
