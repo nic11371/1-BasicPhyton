@@ -10,7 +10,6 @@ for i in var:
            str += j
     arr_no_punc.append(str)
 for i in arr_no_punc:
-       setarr = set(i)
        counter = arr_no_punc.count(i)
        if len(i) >= 5 and counter > 2 and len(set(i)) >= 4:
               arr.append(i)
