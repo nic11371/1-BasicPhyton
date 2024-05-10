@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/1-BasicPhyton.iml" filepath="$PROJECT_DIR$/.idea/1-BasicPhyton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Basic_Phyton.iml" filepath="$PROJECT_DIR$/.idea/Basic_Phyton.iml" />
     </modules>
   </component>
 </project>
