@@ -18,7 +18,7 @@ def solution(func_map, func_filter, data):
     for i, m in enumerate(list_filter):
         if i % 2 == 0:
             yield func_map(m)
-        else: func_map(m)
+            func_map(m)
 
 
 code = []

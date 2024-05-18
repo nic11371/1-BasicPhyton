@@ -1,3 +1,5 @@
+from tqdm import tqdm
+
 dictionary = {}
 
 
