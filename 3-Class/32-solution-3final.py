@@ -28,18 +28,18 @@ class SquareWithMixin(CalculatePerimeterMixin, Square):
         return self.calculate_area() + other.calculate_area()
 
 
-code = []
-while data := input():
-    code.append(data)
-code = "\n".join(code)
-exec(code)
+# code = []
+# while data := input():
+#     code.append(data)
+# code = "\n".join(code)
+# exec(code)
 
-# square_with_mixin1 = SquareWithMixin(3)
-# square_with_mixin2 = SquareWithMixin(2)
-# print(square_with_mixin1.calculate_area())
+square_with_mixin1 = SquareWithMixin(3)
+square_with_mixin2 = SquareWithMixin(2)
+print(square_with_mixin1.calculate_area())
 # print(square_with_mixin1.calculate_perimeter())
-# print(square_with_mixin1 == square_with_mixin1)
-# print(square_with_mixin1 == square_with_mixin2)
-# print(square_with_mixin1 > square_with_mixin2)
-# print(square_with_mixin1 > square_with_mixin1)
-# print(square_with_mixin1 + square_with_mixin1)
+print(square_with_mixin1 == square_with_mixin1)
+print(square_with_mixin1 == square_with_mixin2)
+print(square_with_mixin1 > square_with_mixin2)
+print(square_with_mixin1 > square_with_mixin1)
+print(square_with_mixin1 + square_with_mixin1)
