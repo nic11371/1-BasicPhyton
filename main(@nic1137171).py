@@ -26,7 +26,7 @@ def welcome(data):
     return count
 
 
-def is_valid(printing):
+def is_valid_string(printing):
     while True:
         enter = input(printing).upper()
         if enter not in currency:
@@ -37,11 +37,10 @@ def is_valid(printing):
 
 
 def conversion(current, amount, convert):
-    # return round(currency[current] / currency[convert] * amount, 2)
     return round(amount / currency[current] * currency[convert], 2)
 
 
-def is_valid_num(printing):
+def is_valid_number(printing):
     while True:
         try:
             enter = float(input(printing))
@@ -54,4 +53,4 @@ def is_valid_num(printing):
 welcome(currency)
 
 print(
-    f"ИТОГО: {conversion(is_valid("Введите имеющийся валюту: "), is_valid_num("Введите имеющуюся сумму: "), is_valid("Выберите валюту для конвертации: "))}")
+    f"ИТОГО: {conversion(is_valid_string("Введите имеющийся валюту: "), is_valid_number("Введите имеющуюся сумму: "), is_valid_string("Выберите валюту для конвертации: "))}")
