@@ -52,5 +52,4 @@ def is_valid_number(printing):
 
 welcome(currency)
 
-print(
-    f"ИТОГО: {conversion(is_valid_string("Введите имеющийся валюту: "), is_valid_number("Введите имеющуюся сумму: "), is_valid_string("Выберите валюту для конвертации: "))}")
+print(f"ИТОГО: {conversion(is_valid_string('Введите имеющийся валюту: '), is_valid_number('Введите имеющуюся сумму: '), is_valid_string('Выберите валюту для конвертации: '))}")
